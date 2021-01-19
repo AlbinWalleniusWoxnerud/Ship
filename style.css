@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: gray;
+}
+
+.navbar-list {
+  display: inline-flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navbar-entry-link {
+  display: block;
+  padding: 2vw;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.navbar-entry-link:hover {
+  background-color: red;
+}
+
+.ship-body {
+  display: grid;
+  grid-template: repeat(3, auto) / auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 2vh;
+  justify-content: center;
+}
+
+.ship-header {
+  grid-area: 1/1/2/2;
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+  text-align: center;
+  width: 70vw;
+}
+
+.play {
+  grid-area: 2/1/3/2;
+  background-color: red;
+  width: 70vw;
+}
+
+.rules {
+  grid-area: 3/1/4/2;
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+  text-align: center;
+  width: 70vw;
+}
