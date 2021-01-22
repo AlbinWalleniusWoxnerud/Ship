@@ -33,6 +33,32 @@
   background-color: red;
 }
 
+.index-main {
+}
+
+.index-main-table {
+  display: grid;
+  grid-template: auto, repeat(3, auto);
+}
+
+.index-main-table-row1 {
+  grid-area: 1/1/2/2;
+  display: inline-flex;
+  flex-flow: column wrap;
+}
+
+.index-main-table-row2 {
+  grid-area: 1/2/2/3;
+  display: inline-flex;
+  flex-flow: column wrap;
+}
+
+.index-main-table-row3 {
+  grid-area: 1/3/2/4;
+  display: inline-flex;
+  flex-flow: column wrap;
+}
+
 .ship-body {
   margin: 2vw;
 }
