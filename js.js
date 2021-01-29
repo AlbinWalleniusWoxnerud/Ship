@@ -1,7 +1,7 @@
-let toDoList = document.querySelector('#toDoList');
-toDoList.sty
+let toDoList = document.getElementById('toDoList')
 
 function addTo_list() { 
+    toDoList.style.gridTemplateRows += 1;
     console.log('Hello world')
 }
 
