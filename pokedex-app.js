@@ -8,6 +8,7 @@ for (let pokemon of Pokemon) {
     divOfDiv.classList.add('pd-individualPokemonContainer');
     const pokemonImg = document.createElement('img');
     pokemonImg.src = `${baseImgUrl}${i}.png`;
+    pokemonImg.classList.add('pd-individualPokemonContainer-border');
     const wikiLinkName = document.createElement('a');
     wikiLinkName.href = `${baseWikiUrl}${pokemon}`;
     wikiLinkName.target = `_blank`;
