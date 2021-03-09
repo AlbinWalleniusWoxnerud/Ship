@@ -155,6 +155,12 @@ table {
 }
 
 .navbar-entry-link:hover {
+  color: blue;
+  transition: transform 200ms ease-in-out;
+  transform: translateY(0.75em);
+}
+
+.navbar-entry-link:hover {
   background-color: red;
 }
 
@@ -238,4 +244,64 @@ table {
 
 .pd-individualPokemonContainer-border {
   border-bottom: 1px solid black;
+}
+
+.contentRNDColor {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#rndColorH1 {
+  font-size: 5vh;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin-bottom: 1vh;
+  text-decoration: none;
+}
+
+#rndColorB {
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 20vw;
+  height: 3vh;
+}
+
+#rndColorB:hover {
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: red;
+  transform: translateY(-0.25em);
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+
+.workInP {
+  font-size: 10vh;
+  text-align: center;
+  color: red;
+}
+
+#pokedexH1 {
+  text-align: center;
+  font-size: 3vh;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin-top: 2vh;
+  text-align: center;
+  color: white;
+}
+
+.pd-individualPokemonContainer:hover {
+  cursor: pointer;
 }
